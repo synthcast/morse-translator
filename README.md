@@ -1,7 +1,12 @@
-# morse-translator
-A simple script that uses sed to replace morse code with regular text
+# Terminal Morse code translator
+### A script that uses sed to replace Morse code with text and vice versa.
 
-## specification
-Translates letters A-Z, numbers 0-9, and the following characters .,?!:"'+-=()/&@
+# Support
+* Letters
+* Numbers
+* Punctuation
+
+# Usage:
+Simply execute the script by typing `./translator.sh`, and you will be prompted to select your desired translation method. You can switch freely between these two methods by typing `switch;` after selecting either one (note that this will also clear the terminal).
 
 
