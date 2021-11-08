@@ -74,7 +74,7 @@ read -p "Enter '1' for morse to text, or '2' for text to morse translation: " TR
 case $TRANSLATION in
 	1) text; break;; 
 	2) morse; break;;
-	*) printf "\n"; echo "Please enter '1' or '2'";;
+	*) printf "\nPlease enter '1' or '2'.\n";;
 esac
 done
 
